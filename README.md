@@ -1,6 +1,4 @@
-# blank-repo-for-workshop
-
-## Rock Paper Scissors Game
+# Rock Paper Scissors Game
 
 A simple browser-based Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
