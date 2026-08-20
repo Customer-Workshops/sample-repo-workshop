@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #f9fafb;
+}
+
+.game {
+  text-align: center;
+  padding: 2rem 2.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  max-width: 480px;
+  width: 90%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score .label {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.score .value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.choice-btn {
+  font-size: 2.5rem;
+  background: #374151;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.choice-btn:hover {
+  transform: scale(1.1);
+  border-color: #60a5fa;
+}
+
+.choice-btn:active {
+  transform: scale(0.95);
+}
+
+.result-display {
+  margin-bottom: 1.5rem;
+}
+
+.picks {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pick .label {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 0.25rem;
+}
+
+.pick .emoji {
+  font-size: 2.5rem;
+}
+
+#result-message {
+  font-size: 1.2rem;
+  font-weight: 600;
+  min-height: 1.5rem;
+}
+
+.reset-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.reset-btn:hover {
+  background: #dc2626;
+}
